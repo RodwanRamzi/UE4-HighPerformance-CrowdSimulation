@@ -15,8 +15,10 @@ A **lightweight, data-oriented crowd simulation framework** engineered natively 
 This framework was intentionally benchmarked on older, budget-constrained hardware to stress-test raw CPU cache-line efficiency, memory layout limits, and hardware-level thread optimizations.
 
 ### 🎥 Live Performance Demonstration
-<video src="https://[github.com](https://github.com/RodwanRamzi/UE4-HighPerformance-CrowdSimulation/blob/main/High_PerformanceCrowdSimulation_StressTest_1.mp4)" width="100%" controls autoplay loop muted></video>
-[Click here to watch the 401 Agent Performance Run](High_PerformanceCrowdSimulation_StressTest_1.mp4)
+<video src="https://githubusercontent.com" width="100%" controls autoplay loop muted></video>
+
+[Click here to watch or download the raw 401 Agent Performance Run](https://github.com/RodwanRamzi/UE4-HighPerformance-CrowdSimulation/blob/main/High_PerformanceCrowdSimulation_StressTest_1.mp4)
+
 
 ### 🖥️ Target Test Environment (Low-Spec Validation)
 * **CPU:** Intel Core i7 (4th Generation)
