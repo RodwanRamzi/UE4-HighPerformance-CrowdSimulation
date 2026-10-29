@@ -36,6 +36,24 @@ Implements a lightweight, high-performance crowd padding calculation. Instead of
 
 ---
 
+## ⚡ 401 Skeletal Mesh Stress Test (60 FPS Benchmark)
+
+This framework is built to maximize CPU cache-line efficiency and memory layout architecture under dense simulation loads.
+
+### 🎥 Live Performance Demonstration
+[Click here to watch the 401 Agent Performance Run](High_PerformanceCrowdSimulation_StressTest_1.mp4)
+
+### 🖥️ Target Test Environment (Low-Spec Validation)
+* **CPU:** Intel Core i7 (4th Generation)
+* **RAM:** 8GB DDR3 
+* **GPU:** AMD Radeon RX 580
+* **Load:** 401 True Dynamic Skeletal Meshes (Full bone rigs, dynamic proximity tracking enabled)
+
+### 📈 Results
+* **Frame Rate:** Stable 50 - 60 FPS under full tracking saturation.
+* **Architecture:** Flat, contiguous `TArray` storage structure bypasses standard `AActor::Tick` pointer-chasing, preventing severe DDR3 memory access bottlenecks.
+
+
 ## 🏗️ Architecture Overview
 CrowdSimulationManager (AActor)
 │
@@ -88,6 +106,7 @@ text
 | **Crowd Clumping** | Lightweight neighbor separation algorithm |
 
 ---
+
 
 ## 🔗 Related Projects
 
