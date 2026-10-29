@@ -47,7 +47,7 @@ This framework is built to maximize CPU cache-line efficiency and memory layout 
 * **CPU:** Intel Core i7 (4th Generation)
 * **RAM:** 8GB DDR3 
 * **GPU:** AMD Radeon RX 580
-* **Load:** 401 True Dynamic Skeletal Meshes (Full bone rigs, dynamic proximity tracking enabled)
+* **Load:** 401 True Dynamic Skeletal Meshes (Full bone rigs)
 
 ### 📈 Results
 * **Frame Rate:** Stable 50 - 60 FPS under full tracking saturation.
