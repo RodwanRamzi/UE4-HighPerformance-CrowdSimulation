@@ -1,10 +1,6 @@
 # 👨‍💻 High-Performance Crowd Simulation Framework for Unreal Engine 4.27
 
-<p align="left">
-  <img src="https://shields.io" alt="UE4">
-  <img src="https://shields.io" alt="C++">
-  <img src="https://shields.io" alt="MIT">
-</p>
+**[ Engine: Unreal Engine 4.27 ]** &nbsp;&bull;&nbsp; **[ Language: C++17 ]** &nbsp;&bull;&nbsp; **[ License: MIT ]**
 
 A **lightweight, data-oriented crowd simulation framework** engineered natively in C++ for Unreal Engine 4.27. This framework completely bypasses the heavy CPU overhead of standard engine `AActor` ticking by centralizing transformation logic, matrix operations, and physics raycast channels into a single high-performance manager class.
 
@@ -18,7 +14,7 @@ This framework was intentionally benchmarked on older, budget-constrained hardwa
 
 ### 🎥 Live Performance Demonstration
 
-<img src="High_PerformanceCrowdSimulation_StressTest_1.gif" width="100%" style="image-rendering: pixelated; image-rendering: crisp-edges; image-rendering: -moz-crisp-edges;" alt="401 Agent Performance Stress Test Layout">
+<img src="High_PerformanceCrowdSimulation_StressTest.gif" width="100%" style="image-rendering: pixelated; image-rendering: crisp-edges; image-rendering: -moz-crisp-edges;" alt="401 Agent Performance Stress Test Layout">
 
 ### 🖥️ Target Test Environment (Low-Spec Validation)
 * **CPU:** Intel Core i7 (4th Generation)
