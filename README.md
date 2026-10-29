@@ -1,8 +1,10 @@
 # 👨‍💻 High-Performance Crowd Simulation Framework for Unreal Engine 4.27
 
-[![UE4](https://shields.io)](https://unrealengine.com)
-[![C++](https://shields.io)](https://isocpp.org)
-[![License: MIT](https://shields.io)](https://opensource.org)
+<p align="left">
+  <img src="https://shields.io" alt="UE4">
+  <img src="https://shields.io" alt="C++">
+  <img src="https://shields.io" alt="MIT">
+</p>
 
 A **lightweight, data-oriented crowd simulation framework** engineered natively in C++ for Unreal Engine 4.27. This framework completely bypasses the heavy CPU overhead of standard engine `AActor` ticking by centralizing transformation logic, matrix operations, and physics raycast channels into a single high-performance manager class.
 
@@ -15,7 +17,8 @@ A **lightweight, data-oriented crowd simulation framework** engineered natively 
 This framework was intentionally benchmarked on older, budget-constrained hardware to stress-test raw CPU cache-line efficiency, memory layout limits, and hardware-level thread optimizations.
 
 ### 🎥 Live Performance Demonstration
-![401 Agent Performance Stress Test](High_PerformanceCrowdSimulation_StressTest_1.gif)
+
+<img src="High_PerformanceCrowdSimulation_StressTest_1.gif" width="100%" alt="401 Agent Performance Stress Test Layout">
 
 ### 🖥️ Target Test Environment (Low-Spec Validation)
 * **CPU:** Intel Core i7 (4th Generation)
@@ -27,7 +30,6 @@ This framework was intentionally benchmarked on older, budget-constrained hardwa
 * **Frame Rate:** Stable **50 - 60 FPS** under full tracking saturation.
 * **Memory Architecture:** Flat, contiguous `TArray` storage structures ensure high cache hit ratios during real-time updates, completely preventing the severe DDR3 memory access bottlenecks caused by standard engine pointer-chasing.
 * **Algorithmic Traversal:** Centralized manager executes strict O(N) linear traversal, maximizing L3 cache efficiency on legacy architecture.
-
 
 ---
 
