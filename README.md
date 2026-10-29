@@ -18,7 +18,7 @@ This framework was intentionally benchmarked on older, budget-constrained hardwa
 
 ### 🎥 Live Performance Demonstration
 
-<img src="High_PerformanceCrowdSimulation_StressTest_1.gif" width="100%" alt="401 Agent Performance Stress Test Layout">
+<img src="High_PerformanceCrowdSimulation_StressTest_1.gif" width="100%" style="image-rendering: pixelated; image-rendering: crisp-edges; image-rendering: -moz-crisp-edges;" alt="401 Agent Performance Stress Test Layout">
 
 ### 🖥️ Target Test Environment (Low-Spec Validation)
 * **CPU:** Intel Core i7 (4th Generation)
